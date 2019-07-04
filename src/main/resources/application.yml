@@ -1,0 +1,9 @@
+logging:
+  level:
+    io:
+      swagger:
+        models:
+          parameters:
+            AbstractSerializableParameter: error
+server:
+  port: 8888
